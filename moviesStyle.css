@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+.logo {
+  width: 100px;
+  margin-top: 30px;
+}
+
+.navtab {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+}
+nav li {
+  display: flex;
+  padding: 10px 20px;
+}
+
+li a:hover {
+  text-decoration: 2px underline;
+}
+
+.navButton {
+  color: #edf0f1;
+  padding: 10px 30px;
+  background-color: #f04e56;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navButton:hover {
+  opacity: 0.9;
+}
+.titleArea {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleArea h2 {
+  font-size: 32px;
+}
+.movieBlock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movieItem {
+  margin: 40px 70px;
+  text-align: center;
+}
+.movieItem:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.coverImage {
+  box-shadow: 10px -5px 5px grey;
+  height: 300px;
+  margin-bottom: 5px;
+}
+
+.buttonArea {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.screeningButton {
+  color: #edf0f1;
+  padding: 10px 30px;
+  background-color: #f04e56;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.screeningButton:hover {
+  opacity: 0.7;
+}
+
+footer {
+  width: 100%;
+  height: 125px;
+  color: #edf0f1;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.copyright {
+  background-color: black;
+  color: #edf0f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.footerLogo {
+  align-items: center;
+  margin: -25px;
+}
+.icons {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.sm-icons {
+  width: 35px;
+  margin: 10px;
+}

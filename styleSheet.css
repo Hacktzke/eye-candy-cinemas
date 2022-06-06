@@ -1,0 +1,238 @@
+* {
+  /* this sets the properties for all of the site */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+.logo {
+  width: 100px;
+  margin-top: 30px;
+}
+
+.navtab {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+}
+nav li {
+  display: flex;
+  padding: 10px 20px;
+}
+
+li a:hover {
+  text-decoration: 2px underline; /* this remove the underline*/
+}
+
+.navButton {
+  color: #edf0f1;
+  padding: 10px 30px;
+  background-color: #f04e56;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navButton:hover {
+  opacity: 0.9;
+}
+
+.hero {
+  background-image: url(./images/InterstellarBanner.jpg); /*The image is set as the background */
+  height: 650px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.heroButton1 {
+  color: #edf0f1;
+  width: 170px;
+  padding: 20px 0px;
+  margin: 0 5px 25px 0;
+  font-size: 12px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.heroButton2 {
+  color: #edf0f1;
+  width: 170px;
+  padding: 20px 0px;
+  margin: 0 0 25px 5px;
+  font-size: 12px;
+  background-color: #f04e56;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.heroButton1:hover {
+  -ms-transform: scale(1.1); /* this increases the button when hovered on*/
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.heroButton2:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.banner {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.showingHeader {
+  margin: 25px;
+  font-size: 24px;
+}
+.features {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+}
+hr {
+  width: 50%;
+  height: 8px;
+  border: 3px solid #24252a;
+
+  border-radius: 10px;
+  margin: auto;
+}
+.movieBlock {
+  text-align: center;
+}
+.gridBlock {
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.coverImage {
+  box-shadow: 10px -5px 5px grey;
+}
+.movieItems:hover {
+  -ms-transform: scale(
+    1.1
+  ); /*The movies increase in size when hovered on here.*/
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.movieButton {
+  color: #edf0f1;
+  padding: 10px 50px;
+  background-color: #f04e56;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.movieButton:hover {
+  opacity: 0.7; /*this sets an opacity when hovered on*/
+}
+
+.buttonArea {
+  margin-bottom: 100px;
+  background-color: white;
+}
+.bottomTrailer {
+  background-image: url(./images/InceptionBanner.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.bottomButton1 {
+  color: #edf0f1;
+  width: 170px;
+  padding: 20px 0px;
+  margin: 25px 5px 0px 10px;
+  font-size: 12px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.bottomButton2 {
+  color: #edf0f1;
+  width: 170px;
+  padding: 20px 0px;
+  margin: 25px 0px 0px 5px;
+  font-size: 12px;
+  background-color: #f04e56;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bottomButton1:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.bottomButton2:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+footer {
+  width: 100%;
+  height: 125px;
+  color: #edf0f1;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.copyright {
+  background-color: black;
+  color: #edf0f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.footerLogo {
+  align-items: center;
+  margin: -25px;
+}
+.icons {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.sm-icons {
+  width: 35px;
+  margin: 10px;
+}
